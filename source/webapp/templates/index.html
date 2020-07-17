@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Post</title>
+    <style type="text/css">
+        body {font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #444444;
+
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+<form action="answer/" method="GET">
+    <div class="container">
+        <h1>Калькулятор</h1>
+    </div>
+    <div>
+        <p style="margin-left: 23px; margin-bottom: 35px;">First Number: <input type="number", name="first_price", style="border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px;margin-left: 15px;"></p>
+        <p style="margin-bottom: 35px;">Second Number: <input type="number", name="second_price", style="border-top-width: 3px; border-right-width: 3px; border-bottom-width: 3px; border-left-width: 3px;margin-left: 15px;"></p>
+
+    </div>
+    <div style="margin-left: 140px;">
+        <input type="radio" name="consider" value="add">add
+        <br/>
+        <input type="radio" name="consider" value="subtract">subtract
+        <br/>
+        <input type="radio" name="consider" value="multiply">multiply
+        <br/>
+        <input type="radio" name="consider" value="divide">divide
+        <br/>
+        <br/>
+        <input type="submit" value="Calculate"/>
+    </div>
+</form>
+</body>
+</html>
